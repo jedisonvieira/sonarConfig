@@ -31,8 +31,12 @@ for (let index = 0; index < names.length; index++) {
         }
       }
 
-      if (age == 67 && names[index] == "Rick" && foreName == "Sanchez") {
-        console.log("Thats Rick! :)");
+      if (age == 67) {
+        if (names[index] == "Rick") {
+          if (foreName == "Sanchez") {
+            console.log("Thats Rick! :)");
+          }
+        }
       }
     }
   });
