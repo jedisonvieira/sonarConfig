@@ -21,5 +21,5 @@ jobs:
         uses: sonarsource/sonarqube-scan-action@v1
         with:
           sonar-token: ${{ secrets.SONAR_TOKEN }}
-          project-key: your_project_key
-          organization: your_organization
+          project-key: jedisonvieira_sonarConfig
+          organization: jedisonvieira
